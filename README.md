@@ -3,6 +3,7 @@ Based on: http://blog.skylight.io/bending-the-curve-writing-safe-fast-native-gem
 Current benchmark results:
 
 ```
+$ BENCH=1 rake
 Calculating -------------------------------------
                 ruby     30940 i/100ms
                 rust      7115 i/100ms
