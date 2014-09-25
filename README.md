@@ -1,5 +1,7 @@
 Based on: http://blog.skylight.io/bending-the-curve-writing-safe-fast-native-gems-with-rust/
 
+Current benchmark results:
+
 ```
 Calculating -------------------------------------
                 ruby     30940 i/100ms
