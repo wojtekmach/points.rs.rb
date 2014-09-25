@@ -1,0 +1,5 @@
+file 'libpoints.dylib' => 'points.rs' do
+  sh 'rustc points.rs --crate-type=dylib'
+end
+
+task :default => 'libpoints.dylib'
